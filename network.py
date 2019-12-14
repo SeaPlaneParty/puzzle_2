@@ -3,7 +3,7 @@ import pickle
 import tensorflow as tf
 
 DATA_PATH = './dataset.pkl'
-RANDOM_SEAD = time.time()
+RANDOM_SEAD = 7529 
 
 tf.set_random_seed(RANDOM_SEAD)
 
